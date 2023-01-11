@@ -1,0 +1,74 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: black;
+}
+.container {
+  max-width: 1200px;
+  background-color: lightgray;
+  padding: 25px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/belt-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0 100px 0;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+header h1 {
+  font-size: 65px;
+}
+
+.grid {
+  margin-top: 25px;
+  display: grid;
+  grid-gap: 26px;
+}
+h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 15px;
+}
+.grid-3-columns {
+  grid-template-columns: 1fr 5fr 1fr;
+}
+
+.img-responsive-1,
+.img-responsive-2 {
+  max-width: 100%;
+  display: block;
+  border-radius: 10px;
+  transition: all 150ms ease-in;
+}
+.img-responsive-1:hover,
+.img-responsive-2:hover {
+  transform: scale(1.5);
+}
+.secondary {
+  text-align: center;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../images/bamboo-bg-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 25px;
+
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+@media (max-width: 400px) {
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 13px;
+  }
+}
