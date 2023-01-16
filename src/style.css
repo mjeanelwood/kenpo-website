@@ -53,11 +53,14 @@ p {
 .img-responsive-2:hover {
   transform: scale(1.5);
 }
+.img-responsive-2 {
+  border: 1px solid black;
+}
 .secondary {
   text-align: center;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(../images/bamboo-bg-2.jpg);
+    url(../images/japanese-sword.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 25px;
