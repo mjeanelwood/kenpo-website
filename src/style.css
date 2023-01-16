@@ -11,7 +11,7 @@ body {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../images/belt-bg.jpg);
+    url(../images/japanese-sword.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px 0 100px 0;
@@ -60,7 +60,7 @@ p {
   text-align: center;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(../images/japanese-sword.jpg);
+    url(../images/bamboo-bg-2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 25px;
