@@ -36,13 +36,42 @@ h2 {
 
 p {
   line-height: 1.5;
-  font-size: 15px;
+  font-size: 17px;
 }
 .grid-3-columns {
   grid-template-columns: 1fr 5fr 1fr;
 }
 .official {
   font-size: 25px;
+}
+.about-image {
+  display: block;
+  margin: 50px auto;
+  max-width: 300px;
+  border-radius: 10px;
+  border: 2px solid black;
+  transition: all 150ms ease-in;
+}
+.about-link {
+  color: white;
+  text-decoration: none;
+}
+.home-link {
+  color: black;
+  text-decoration: none;
+}
+
+.about-link:hover,
+.home-link:hover {
+  color: red;
+}
+
+.about-paragraph {
+  line-height: 1.5;
+  font-size: 17px;
+  color: black;
+  display: flex;
+  justify-content: start;
 }
 .img-responsive-1,
 .img-responsive-2 {
@@ -53,7 +82,8 @@ p {
   transition: all 150ms ease-in;
 }
 .img-responsive-1:hover,
-.img-responsive-2:hover {
+.img-responsive-2:hover,
+.about-image:hover {
   transform: scale(1.5);
 }
 
