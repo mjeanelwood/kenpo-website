@@ -22,6 +22,7 @@ header {
 
 header h1 {
   font-size: 65px;
+  font-weight: normal;
 }
 
 .grid {
@@ -61,8 +62,22 @@ p {
   text-decoration: none;
 }
 
+.gallery-link {
+  color: white;
+  text-decoration: none;
+}
+
+.gallery-content {
+  text-align: center;
+}
+.about-link,
+.home-link,
+.gallery-link {
+  padding: 20px;
+}
 .about-link:hover,
-.home-link:hover {
+.home-link:hover,
+.gallery-link:hover {
   color: red;
 }
 
