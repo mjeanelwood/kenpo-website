@@ -53,6 +53,7 @@ p {
   border: 2px solid black;
   transition: all 150ms ease-in;
 }
+
 .about-link {
   color: white;
   text-decoration: none;
@@ -62,7 +63,8 @@ p {
   text-decoration: none;
 }
 
-.gallery-link {
+.gallery-link,
+.techniques-link {
   color: white;
   text-decoration: none;
 }
@@ -70,22 +72,29 @@ p {
 .gallery-content {
   text-align: center;
 }
+
 .about-link,
 .home-link,
-.gallery-link {
+.gallery-link,
+.techniques-link {
   padding: 20px;
 }
 .about-link:hover,
 .home-link:hover,
-.gallery-link:hover {
+.gallery-link:hover,
+.techniques-link:hover {
   color: red;
 }
-
+.hebler-link,
+.parker-link {
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 150ms ease-in;
+}
 .about-paragraph {
   line-height: 1.5;
   font-size: 17px;
   color: black;
-  display: flex;
   justify-content: start;
 }
 .img-responsive-1,
