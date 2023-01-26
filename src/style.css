@@ -72,7 +72,9 @@ p {
 .gallery-content {
   text-align: center;
 }
-
+.techniques-content {
+  text-align: center;
+}
 .about-link,
 .home-link,
 .gallery-link,
