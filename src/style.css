@@ -1,12 +1,13 @@
 body {
   font-family: "Roboto", sans-serif;
-  background-color: black;
+  background-color: #004241;
 }
 .container {
   max-width: 1200px;
   background-color: whitesmoke;
   padding: 25px;
   margin: 0 auto;
+  border-radius: 10px;
 }
 
 header {
@@ -25,11 +26,6 @@ header h1 {
   font-weight: normal;
 }
 
-.grid {
-  margin-top: 25px;
-  display: grid;
-  grid-gap: 26px;
-}
 h2 {
   margin-top: 0;
   text-align: center;
@@ -38,6 +34,12 @@ h2 {
 p {
   line-height: 1.5;
   font-size: 17px;
+}
+
+.grid {
+  margin-top: 25px;
+  display: grid;
+  grid-gap: 26px;
 }
 .grid-3-columns {
   grid-template-columns: 1fr 5fr 1fr;
@@ -51,22 +53,9 @@ p {
   max-width: 300px;
   border-radius: 10px;
   border: 2px solid black;
-  transition: all 150ms ease-in;
 }
-
-.about-link {
-  color: white;
-  text-decoration: none;
-}
-.home-link {
-  color: black;
-  text-decoration: none;
-}
-
-.gallery-link,
-.techniques-link {
-  color: white;
-  text-decoration: none;
+.about-content {
+  background-color: whitesmoke;
 }
 
 .gallery-content {
@@ -75,23 +64,22 @@ p {
 .techniques-content {
   text-align: center;
 }
-.about-link,
-.home-link,
-.gallery-link,
-.techniques-link {
-  padding: 20px;
+.header-nav a {
+  color: whitesmoke;
 }
-.about-link:hover,
-.home-link:hover,
-.gallery-link:hover,
-.techniques-link:hover {
+a {
+  color: #004241;
+  padding: 20px;
+  text-decoration: none;
+}
+a:hover {
   color: red;
 }
 .hebler-link,
 .parker-link {
   text-decoration: none;
   font-weight: bold;
-  transition: all 150ms ease-in;
+  padding: 0;
 }
 .about-paragraph {
   line-height: 1.5;
@@ -108,8 +96,7 @@ p {
   transition: all 150ms ease-in;
 }
 .img-responsive-1:hover,
-.img-responsive-2:hover,
-.about-image:hover {
+.img-responsive-2:hover {
   transform: scale(1.5);
 }
 
@@ -121,7 +108,6 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 25px;
-
   color: white;
   text-align: center;
   border-radius: 10px;
