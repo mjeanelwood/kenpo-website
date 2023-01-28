@@ -58,9 +58,7 @@ p {
   background-color: whitesmoke;
 }
 
-.gallery-content {
-  text-align: center;
-}
+.gallery-content,
 .techniques-content {
   text-align: center;
 }
@@ -71,9 +69,10 @@ a {
   color: #004241;
   padding: 20px;
   text-decoration: none;
+  text-align: center;
 }
 a:hover {
-  color: red;
+  color: #e38826;
 }
 .hebler-link,
 .parker-link {
