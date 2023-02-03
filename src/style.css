@@ -16,7 +16,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px 0 100px 0;
-  color: white;
+  color: whitesmoke;
   text-align: center;
   border-radius: 10px;
 }
@@ -24,10 +24,11 @@ header {
 header h1 {
   font-size: 65px;
   font-weight: normal;
+  text-transform: uppercase;
 }
 
 h2 {
-  margin-top: 0;
+  margin-top: 25px;
   text-align: center;
 }
 
@@ -47,23 +48,43 @@ p {
 .official {
   font-size: 25px;
 }
-.about-image {
+.about-image,
+.concealed-carry-image,
+.self-defense-image {
   display: block;
   margin: 50px auto;
   max-width: 300px;
   border-radius: 10px;
   border: 2px solid black;
 }
-.about-content {
-  background-color: whitesmoke;
-}
-
+.about-content,
 .gallery-content,
-.techniques-content {
+.techniques-content,
+.ccw-content,
+.self-defense-content {
   text-align: center;
+  background-color: whitesmoke;
 }
 .header-nav a {
   color: whitesmoke;
+}
+.ccw-header {
+  background-color: #2d3a43;
+  color: whitesmoke;
+  padding: 25px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.ccw-content-p {
+  background-color: #2d3a43;
+  color: whitesmoke;
+  padding: 50px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.ccw-content-p h2 {
+  font-size: 30px;
 }
 a {
   color: #004241;
@@ -80,6 +101,14 @@ a:hover {
   font-weight: bold;
   padding: 0;
 }
+
+.carry-link {
+  text-decoration: none;
+  color: #e38826;
+}
+.carry-link:hover {
+  color: whitesmoke;
+}
 .about-paragraph {
   line-height: 1.5;
   font-size: 17px;
@@ -92,23 +121,24 @@ a:hover {
   display: block;
   border: 1px solid black;
   border-radius: 10px;
-  transition: all 150ms ease-in;
 }
-.img-responsive-1:hover,
-.img-responsive-2:hover {
-  transform: scale(1.5);
+.img-responsive-3 {
+  margin: 0 auto;
+  max-width: 100px;
 }
-
+.ccw-header img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
 .secondary {
   text-align: center;
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(../images/bamboo-bg-2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #2d3a43;
   padding: 25px;
-  color: white;
+  color: whitesmoke;
   text-align: center;
+  border: 2px solid #004241;
   border-radius: 10px;
 }
 @media (max-width: 400px) {
