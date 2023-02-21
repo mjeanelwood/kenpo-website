@@ -1,10 +1,19 @@
+:root {
+  --bg-color: #004241;
+  --link-color: #e38826;
+  --font-color: whitesmoke;
+  --bg-image: url(../images/redbg2.jpg);
+}
+
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #004241;
+  background-color: var(--bg-color);
 }
 .container {
   max-width: 1200px;
-  background-color: whitesmoke;
+  background-image: var(--bg-image);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 25px;
   margin: 0 auto;
   border-radius: 10px;
@@ -16,25 +25,27 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px 0 100px 0;
-  color: whitesmoke;
+  color: var(--font-color);
   text-align: center;
   border-radius: 10px;
 }
 
 header h1 {
   font-size: 65px;
-  font-weight: normal;
+  font-weight: bold;
   text-transform: uppercase;
 }
 
 h2 {
   margin-top: 25px;
   text-align: center;
+  color: var(--font-color);
 }
 
 p {
   line-height: 1.5;
   font-size: 17px;
+  color: var(--font-color);
 }
 
 .grid {
@@ -49,36 +60,44 @@ p {
   font-size: 25px;
 }
 .about-image,
-.concealed-carry-image,
-.self-defense-image {
+.concealed-carry-image {
   display: block;
   margin: 50px auto;
-  max-width: 300px;
+  max-width: 400px;
   border-radius: 10px;
   border: 2px solid black;
 }
+
 .about-content,
+.program-content,
 .gallery-content,
-.techniques-content,
-.ccw-content,
-.self-defense-content {
+.video-content,
+.ccw-content {
+  background-image: var(--bg-image);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  padding: 20px;
   text-align: center;
-  background-color: whitesmoke;
+  color: var(--font-color);
 }
 .header-nav a {
-  color: whitesmoke;
+  color: var(--font-color);
 }
+
 .ccw-header {
   background-color: #2d3a43;
-  color: whitesmoke;
+  color: var(--font-color);
   padding: 25px;
   border-radius: 10px;
   margin-top: 50px;
 }
-
+.active {
+  color: var(--link-color);
+}
 .ccw-content-p {
   background-color: #2d3a43;
-  color: whitesmoke;
+  color: var(--font-color);
   padding: 50px;
   border-radius: 10px;
   margin-top: 50px;
@@ -93,26 +112,27 @@ a {
   text-align: center;
 }
 a:hover {
-  color: #e38826;
+  color: var(--link-color);
 }
 .hebler-link,
 .parker-link {
   text-decoration: none;
   font-weight: bold;
+  color: var(--link-color);
   padding: 0;
 }
 
 .carry-link {
   text-decoration: none;
-  color: #e38826;
+  color: var(--link-color);
 }
 .carry-link:hover {
-  color: whitesmoke;
+  color: var(--font-color);
 }
 .about-paragraph {
   line-height: 1.5;
   font-size: 17px;
-  color: black;
+  color: var(--font-color);
   justify-content: start;
 }
 .img-responsive-1,
@@ -136,14 +156,30 @@ a:hover {
 
   background-color: #2d3a43;
   padding: 25px;
-  color: whitesmoke;
+  color: var(--font-color);
   text-align: center;
   border: 2px solid #004241;
   border-radius: 10px;
 }
-@media (max-width: 400px) {
+@media (max-width: 850px) {
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 13px;
+    margin-top: 10px;
+  }
+  header {
+    padding: 15px;
+  }
+  header h1 {
+    font-size: 35px;
+  }
+  main {
+    padding: 0;
+    margin-top: 0;
+  }
+  .about-image,
+  .img-responsive-1,
+  .img-responsive-2 {
+    display: none;
   }
 }
