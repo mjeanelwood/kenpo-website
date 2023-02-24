@@ -38,6 +38,7 @@
           <a href="gallery.html" class="gallery-link">Gallery</a>
         </div>
         <h1>Barry Elwood's <br />Kenpo and Self-Defense</h1>
+        <button>Click Me</button>
       </header>
 
       <main>
@@ -140,5 +141,14 @@
         </section>
       </main>
     </div>
+    <script>
+      function clickMe() {
+        let h1 = document.querySelector("h1");
+        h1.innerHTML = "Kenpo - touch me and your first lesson is free!";
+      }
+
+      let clickMeButton = document.querySelector("button");
+      clickMeButton.addEventListener("click", clickMe);
+    </script>
   </body>
 </html>
