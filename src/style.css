@@ -21,7 +21,7 @@ body {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../images/japanese-sword.jpg);
+    url(../images/bse-about.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px 0 100px 0;
@@ -56,7 +56,7 @@ p {
   grid-gap: 26px;
 }
 .grid-3-columns {
-  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-columns: 0.5fr 5fr 0.5fr;
 }
 .grid-4-columns {
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -145,12 +145,15 @@ a:hover {
   justify-content: start;
 }
 .img-responsive-1,
-.img-responsive-2,
 .img-responsive-3 {
   max-width: 100%;
   display: block;
   border: 1px solid black;
   border-radius: 10px;
+}
+.img-responsive-2 {
+  display: inline;
+  max-width: 50px;
 }
 .img-responsive-3 {
   margin: 0 auto;
