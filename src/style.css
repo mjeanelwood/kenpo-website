@@ -73,6 +73,9 @@ p {
   border-radius: 10px;
   border: 2px solid black;
 }
+.ccw-images {
+  margin: 0 auto;
+}
 
 .about-content,
 .program-content,
@@ -106,7 +109,6 @@ p {
   color: var(--font-color);
   padding: 50px;
   border-radius: 10px;
-  margin-top: 50px;
 }
 .ccw-content-p h2 {
   font-size: 30px;
@@ -162,6 +164,11 @@ a:hover {
 }
 .img-responsive-3:hover {
   transform: scale(2.5);
+}
+.img-responsive-4 {
+  max-width: 200px;
+  padding: 15px;
+  border-radius: 10px;
 }
 .ccw-header img {
   display: block;
