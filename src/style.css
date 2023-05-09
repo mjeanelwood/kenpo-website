@@ -159,7 +159,7 @@ a:hover {
 }
 .img-responsive-3 {
   margin: 0 auto;
-  max-width: 100px;
+  max-width: 250px;
   transition: transform 0.5s;
 }
 .img-responsive-3:hover {
