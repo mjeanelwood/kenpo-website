@@ -61,7 +61,9 @@ p {
 .grid-4-columns {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-
+.videos {
+  padding: 10px;
+}
 .official {
   font-size: 25px;
 }
