@@ -97,7 +97,7 @@ p {
 }
 
 .ccw-header {
-  background-color: #2d3a43;
+  background-color: #253a50;
   color: var(--font-color);
   padding: 25px;
   border-radius: 10px;
@@ -107,7 +107,7 @@ p {
   color: var(--link-color);
 }
 .ccw-content-p {
-  background-color: #2d3a43;
+  background-color: #253a50;
   color: var(--font-color);
   padding: 50px;
   border-radius: 10px;
@@ -180,11 +180,11 @@ a:hover {
 .secondary {
   text-align: center;
   margin-top: 25px;
-  background-color: #2d3a43;
+  background-color: #253a50;
   padding: 25px;
   color: var(--font-color);
   text-align: center;
-  border: 2px solid #004241;
+  border: 2px solid #253a50;
   border-radius: 10px;
 }
 @media (max-width: 850px) {
