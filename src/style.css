@@ -92,6 +92,9 @@ p {
   text-align: center;
   color: var(--font-color);
 }
+.ccw-content {
+  line-height: 1.5;
+}
 .header-nav a {
   color: var(--font-color);
 }
